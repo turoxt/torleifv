@@ -1,0 +1,102 @@
+$light-color: white;
+$main-color: red;
+$sky-color: #0092D5;
+$dark-color: #333;
+
+// HOVER EFFECT
+  #header {
+    &-home,
+    &-inner {
+    .div-1 a {
+      text-transform: uppercase;
+      border-bottom: 3px transparent solid;
+      transition: border-color 0.7s;
+    
+      &:hover {
+        border-color: $light-color;
+      }
+
+      &.current {
+        border-color: $light-color;
+      }
+    }
+    .navbar-brand {
+      font-size: 3rem;
+    }
+  }
+}
+
+// BUTTONS
+%btn-shared {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn {
+  &-main {
+    @extend %btn-shared;
+    color: $light-color;
+    background-color: $dark-color;
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+
+  &-sky {
+    @extend %btn-shared;
+    color: $light-color;
+    background-color: $sky-color;
+    border-radius: 10px;
+    width: 185px;
+  }
+
+  &-sky2 {
+    @extend %btn-shared;
+    color: $light-color;
+    background-color: $sky-color;
+    border-radius: 10px;
+    width: 250px;
+  }
+
+  &-red {
+    @extend %btn-shared;
+    color: $main-color;
+    background-color: $main-color;
+    border-radius: 10px;
+    width: 185px;
+  }
+}
+
+.btn {
+  &-main:hover {
+    background-color: $sky-color;
+    color: $light-color !important;
+    text-decoration: none;
+  }
+
+  &-sky:hover {
+    text-decoration: none;
+    color: $light-color;
+  }
+
+  &-sky2:hover {
+    text-decoration: none;
+    color: $light-color;
+  }
+}
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: $main-color;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+
+
+
+
+
