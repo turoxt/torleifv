@@ -62,37 +62,32 @@
   margin: 0 auto 0 auto; }
 
 @media (max-width: 750px) {
-  #header-home, #header-inner {
-    border-bottom: 3px solid red;
-    height: 7.5rem !important;
-    background-position: 20% 10% !important; }
-    #header-home .header-content, #header-inner .header-content {
-      display: none; }
-    #header-home .container, #header-inner .container {
-      display: grid;
-      grid-template-columns: 1fr; }
-      #header-home .container .navbar-brand, #header-inner .container .navbar-brand {
-        display: none; }
-      #header-home .container .navbar-logo, #header-inner .container .navbar-logo {
-        text-align: center;
-        border-radius: 50%; }
-      #header-home .container .nav-content, #header-inner .container .nav-content {
-        justify-self: center; }
-        #header-home .container .nav-content ul, #header-inner .container .nav-content ul {
-          background: #0092D5;
-          opacity: 0.9;
-          font-size: 13px; }
-  #accordion .card {
-    width: 20rem !important; } }
+  #header-home .header-content, #header-inner .header-content {
+    display: none; }
+  #header-home .container, #header-inner .container {
+    display: grid;
+    grid-template-columns: 1fr; }
+    #header-home .container .navbar-brand, #header-inner .container .navbar-brand {
+      font-size: 1.7rem;
+      text-align: center;
+      border-bottom: none; }
+    #header-home .container .nav-content, #header-inner .container .nav-content {
+      justify-self: center; }
+  #header-home .torleifv h2, #header-inner .torleifv h2 {
+    font-size: 3rem !important; }
+  #case-study-title h5 {
+    display: none; }
+  #image1 {
+    text-align: center; }
+    #image1 img {
+      width: 250px; }
+  #image2 img {
+    width: 250px;
+    padding-bottom: 30px; } }
 
 @media (min-width: 750px) {
   #header-home .navbar-logo, #header-inner .navbar-logo {
     display: none; } }
-
-@media (max-width: 990px) {
-  .caption-1 {
-    width: 230px;
-    height: 129px; } }
 
 #header-home {
   background: url("../img/aurora.webp") no-repeat center right/cover;

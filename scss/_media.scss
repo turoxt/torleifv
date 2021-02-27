@@ -1,57 +1,62 @@
 @media (max-width: 750px) {
 
-  // HEADER
-  #header {
+    // HEADER
+    #header {
 
-  &-home,
-  &-inner {
+    &-home,
+    &-inner {
 
-    border-bottom: 3px solid $main-color;
-    height: 7.5rem !important;
-    background-position: 20% 10% !important;
+      .header-content {
+        display: none;
+      }
 
-    .header-content {
+      .container {
+        display: grid;
+        grid-template-columns: 1fr;
+
+      .navbar-brand {
+        font-size: 1.7rem;
+        text-align: center;
+        border-bottom: none;
+        }
+      
+
+        .nav-content {
+          justify-self: center;
+        }  
+      }
+      // Case Study
+      .torleifv {
+        h2 {
+          font-size: 3rem !important;
+        }
+      }
+    }
+  }
+
+  // Navbar - Case Study
+
+  #case-study-title {
+    h5 {
       display: none;
     }
+  }
 
-    .container {
-      display: grid;
-      grid-template-columns: 1fr;
+  // Images
 
-    .navbar-brand {
-      display:none;
-      // font-size: 1.5rem;
-      // text-align: center;
-      // border-bottom: none;
-      }
-    
-    .navbar-logo {
-      text-align: center;
-      border-radius: 50%;
-    }
-
-      .nav-content {
-        justify-self: center;
-
-        ul {
-          background: $sky-color;
-          opacity: 0.9;
-          font-size: 13px;
-        }
-      }  
+  #image1 {
+    text-align: center;
+    img {
+      width: 250px;
     }
   }
-}
 
-// Dictionary
-
-// Accordion
-
-#accordion {
-  .card {
-    width: 20rem !important;
+  #image2 {
+    img {
+      width: 250px;
+      padding-bottom: 30px;
+    }
   }
-}
 }
 @media (min-width: 750px) {
   
@@ -64,14 +69,5 @@
         display:none;
       }
     }
-  }
-}
-
-// Blogs
-
-@media (max-width: 990px) {
-  .caption-1 {
-    width: 230px;
-    height: 129px;
   }
 }
