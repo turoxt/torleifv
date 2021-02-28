@@ -77,6 +77,8 @@
         font-size: 0.8rem; }
   #header-home .torleifv h2, #header-inner .torleifv h2 {
     font-size: 3rem !important; }
+  #blog-img img {
+    width: 250px; }
   #case-study-title h5 {
     display: none; }
   #image1 {
