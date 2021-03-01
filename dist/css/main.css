@@ -93,7 +93,7 @@
   #header-home .navbar-logo, #header-inner .navbar-logo {
     display: none; } }
 
-@media (max-width: 990px) {
+@media (min-width: 775px) and (max-width: 990px) {
   #image1 img {
     width: 250px;
     padding-top: 50px; } }
