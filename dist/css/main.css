@@ -118,6 +118,9 @@
   width: 185px;
   display: inline-block; }
 
+#video-box {
+  background-color: rgba(238, 238, 238, 0.86); }
+
 #main-footer {
   padding-bottom: 28px;
   padding-top: 28px;
