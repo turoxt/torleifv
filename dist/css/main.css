@@ -77,6 +77,9 @@
         font-size: 0.8rem; }
   #header-home .torleifv h2, #header-inner .torleifv h2 {
     font-size: 3rem !important; }
+  #video-case iframe {
+    width: 430px;
+    height: 242px; }
   #blog-img img {
     width: 250px; }
   #case-study-title h5 {
@@ -84,19 +87,27 @@
   #image1 {
     text-align: center; }
     #image1 img {
-      width: 250px; }
+      display: none; }
   #image2 img {
     width: 250px;
-    padding-bottom: 30px; } }
+    padding-bottom: 30px; }
+  #image3 img {
+    width: 150px;
+    padding-top: 10px; } }
 
 @media (min-width: 750px) {
   #header-home .navbar-logo, #header-inner .navbar-logo {
+    display: none; }
+  #image3 img {
     display: none; } }
 
-@media (min-width: 775px) and (max-width: 990px) {
+@media (min-width: 750px) and (max-width: 990px) {
   #image1 img {
     width: 250px;
-    padding-top: 50px; } }
+    padding-top: 50px; }
+  #video-case iframe {
+    width: 563px;
+    height: 317px; } }
 
 #header-home {
   background: url("../img/aurora.webp") no-repeat center right/cover;
