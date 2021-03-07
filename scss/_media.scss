@@ -38,11 +38,10 @@
     }
   }
 
-  // Video
-  #video-case {
-    iframe {
-      width: 430px;
-      height: 242px;
+  // Case study - BUTTON
+  #case-box {
+    a {
+      width: 300px;
     }
   }
 
@@ -100,6 +99,13 @@
       display: none;
     }
   }
+
+  // Case study - BUTTON
+  #case-box {
+    a {
+      width: 500px;
+    }
+  }
 }
 @media (min-width: 750px) and (max-width: 990px) {
   #image1 {
@@ -114,6 +120,46 @@
     iframe {
       width: 563px;
       height: 317px;
+    }
+  }
+}
+
+// IPAD
+
+@media (min-width: 450px) and (max-width: 750px) {
+  // Video
+  #video-case {
+    iframe {
+      width: 400px;
+      height: 225px;
+    }
+  }
+}
+
+// IPHONE X, 6/7/8
+@media (min-width: 320px) and (max-width: 450px) {
+  // Video
+  #video-case {
+    iframe {
+      width: 300px;
+      height: 169px;
+    }
+  }
+}
+
+// Iphone 5
+@media (max-width: 320px) {
+  // Video
+  #video-case {
+    iframe {
+      width: 220px;
+      height: 124px;
+    }
+  }
+  // Case study - BUTTON
+  #case-box {
+    a {
+      width: 220px;
     }
   }
 }
