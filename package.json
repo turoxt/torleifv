@@ -1,15 +1,28 @@
 {
-  "name": "torleifv",
+  "name": "y",
   "version": "1.0.0",
   "description": "website for torleifv",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
-  "author": "",
+  "author": "torleif",
   "license": "ISC",
   "devDependencies": {
+    "dart-sass": "^1.25.0",
     "lodash": ">=4.17.19",
     "node-sass": "^4.14.1"
-  }
+  },
+  "dependencies": {
+    "core-util-is": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turoxt/torleifv.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/turoxt/torleifv/issues"
+  },
+  "homepage": "https://github.com/turoxt/torleifv#readme"
 }

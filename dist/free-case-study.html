@@ -52,7 +52,7 @@
 
       The simple two-step system to be visible to students <br><br>
 
-      <a data-toggle="modal" data-target="#myModal" class="btn-sky2 h4" style="color:white;">Get Case Study Now >></a>
+      <a data-target="#myModal" data-toggle="modal" id="open" class="btn-sky2 h4" style="color:white;">Get Case Study Now >></a>
       <div class="container">
         <!-- MODAL -->
         <div class="modal" id="myModal">
@@ -69,13 +69,14 @@
                 </div>
                 <div class="modal-body">
                   <div class="form-group">
-                    <form name="contact" method="POST" data-netlify="true">
-                      <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"><br>
+                    <form id="form" name="contact" method="POST" data-netlify="true">
+                      <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email"><br>
+                    
+                      <a href="video.html" class="btn-sky h4" id="btn" style="width:280px;">Get Your Case Study Now</a>
+                      <div class="container text-center"> 
+                        <small id="emailHelp" class="form-text text-muted"><i class="fa fa-lock"></i> Your information is 100% secure</small>
+                      </div>
                     </form>
-                    <a href="video.html" class="btn-sky h4" style="width:280px;">Get Your Case Study Now</a>
-                    <div class="container text-center"> 
-                      <small id="emailHelp" class="form-text text-muted"><i class="fa fa-lock"></i> Your information is 100% secure</small>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -126,6 +127,7 @@
   // Get the current year for the copyright
   $('#year').text(new Date().getFullYear());
 </script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
